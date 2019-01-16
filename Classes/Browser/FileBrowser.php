@@ -202,8 +202,8 @@ class FileBrowser extends AbstractElementBrowser implements ElementBrowserInterf
         $markup[] = '       <div class="element-browser-main-content">';
         $markup[] = '           <div class="element-browser-body">';
         $markup[] = '               ' . $this->doc->getFlashMessages();
-        $markup[] = '               ' . $files;
         $markup[] = '               ' . $uploadForm;
+        $markup[] = '               ' . $files;
         $markup[] = '               ' . $createFolder;
         $markup[] = '           </div>';
         $markup[] = '       </div>';
